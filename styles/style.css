@@ -21,9 +21,20 @@
 .header {
   display: grid;
   position: relative;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto 1fr;
   padding: 20px;
   min-height: 100vh;
+  min-block-size: 100vh;
+}
+
+.header__theme-menu {
+  grid-row: 1;
+  justify-self: center;
+  align-self: start;
+}
+
+.header__text {
+  grid-row: 2;
 }
 
 .header__subtitle.title-decor {
