@@ -14,7 +14,7 @@
   --section-text-color: var(--accent-color);
   --button-color: var(--accent-color);
   --text-color: #f1b2ce;
-  --main-font-family: 'IBM Plex Mono', monospace;
+  --main-font-family: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
   --main-font-size-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --footer-title-size: clamp(7.5rem, 0.75rem + 14.0625vw, 9.75rem);

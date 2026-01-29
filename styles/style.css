@@ -334,8 +334,8 @@
 	.footer {
 		margin-block-start: 62px;
 		min-block-size: 768px;
-		margin-block-start: 62px;
- 		min-block-size: 768px;
+		/* margin-block-start: 62px;
+ 		min-block-size: 768px; */
 		align-items: flex-end;
 		padding-block-end: 20px;
 	}
@@ -385,7 +385,7 @@
 
 	.footer {
 		margin-block-start: 0;
-    	min-block-size: 100vh; 
+    	min-block-size: 100vh;
     	display: flex;
     	justify-content: center;
     	align-items: center;
@@ -402,7 +402,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px; 
+    gap: 48px;
     min-block-size: 100vh;
     margin: 0;
   }
